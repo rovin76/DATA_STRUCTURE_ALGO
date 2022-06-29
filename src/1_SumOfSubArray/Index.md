@@ -1,5 +1,6 @@
-##Noddy's Examination -112:39:36
-#Description
+## Noddy's Examination -112:39:36
+
+# Description
 
 Noddy has an exam in which each question has a difficulty level in the form of an Integer. Now, Noddy can only solve the problems that have difficulty level less than or equal to X. Now the rules are-
 
