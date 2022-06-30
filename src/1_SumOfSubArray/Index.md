@@ -1,4 +1,4 @@
-## Noddy's Examination -112:39:36
+## Noddy's Examination
 
 # Description
 
