@@ -71,4 +71,29 @@ function operation(arr,n,k){
 }
 
 
+//  With The Hash Function  :
+
+function operation(arr,n,k){
+    let hash=new Map() //syntax to create in jS
+    let count=0;
+    let c_sum=0;
+    for(let i=0;i<n;i++){
+        c_sum+=arr[i];
+        if(c_sum===k){
+            count++;
+        }
+        if(hash.has(c_sum-k)){
+            count+=hash.get(c_sum-k)
+        }
+        let temp=hash.get(c_sum);
+        if(temp===null){
+            hash.set(c_sum,1)
+        }
+        else{
+            hash.set(c_sum,temp+1)
+        }
+    }
+    return count===0 ? "No" : "Yes"
+}
+
 ```
